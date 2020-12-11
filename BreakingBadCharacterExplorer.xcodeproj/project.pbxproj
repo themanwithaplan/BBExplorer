@@ -18,7 +18,6 @@
 		524623742581B9C400870464 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524623732581B9C400870464 /* CharacterDetailViewController.swift */; };
 		524623782581BA0B00870464 /* CharacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 524623762581BA0B00870464 /* CharacterCell.xib */; };
 		524623792581BA0B00870464 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524623772581BA0B00870464 /* CharacterCell.swift */; };
-		524623872581BDCA00870464 /* BreakingBadCharacterExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524623862581BDCA00870464 /* BreakingBadCharacterExplorerTests.swift */; };
 		75ED50785080DF68D131515D /* Pods_BreakingBadCharacterExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2440E31F2F73E7D832F508F5 /* Pods_BreakingBadCharacterExplorer.framework */; };
 		F154E10B69546597CD12C5AB /* Pods_BreakingBadCharacterExplorerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221291011393A48EE9F45D62 /* Pods_BreakingBadCharacterExplorerTests.framework */; };
 /* End PBXBuildFile section */
@@ -51,8 +50,6 @@
 		524623762581BA0B00870464 /* CharacterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterCell.xib; sourceTree = "<group>"; };
 		524623772581BA0B00870464 /* CharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		524623842581BDCA00870464 /* BreakingBadCharacterExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingBadCharacterExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		524623862581BDCA00870464 /* BreakingBadCharacterExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadCharacterExplorerTests.swift; sourceTree = "<group>"; };
-		524623882581BDCA00870464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72FC16794ED4E4FB3D2DAA3E /* Pods-BreakingBadCharacterExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadCharacterExplorer.debug.xcconfig"; path = "Target Support Files/Pods-BreakingBadCharacterExplorer/Pods-BreakingBadCharacterExplorer.debug.xcconfig"; sourceTree = "<group>"; };
 		9CAFF6A75938599EC819520F /* Pods-BreakingBadCharacterExplorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadCharacterExplorerTests.release.xcconfig"; path = "Target Support Files/Pods-BreakingBadCharacterExplorerTests/Pods-BreakingBadCharacterExplorerTests.release.xcconfig"; sourceTree = "<group>"; };
 		F2A6631C18571EA85B2192FA /* Pods-BreakingBadCharacterExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadCharacterExplorer.release.xcconfig"; path = "Target Support Files/Pods-BreakingBadCharacterExplorer/Pods-BreakingBadCharacterExplorer.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				524623522581B4C000870464 /* BreakingBadCharacterExplorer */,
-				524623852581BDCA00870464 /* BreakingBadCharacterExplorerTests */,
 				524623512581B4C000870464 /* Products */,
 				9BA5448E994E9C94EEC33260 /* Pods */,
 				352A6B7E37CB8815D7A8E8F5 /* Frameworks */,
@@ -156,15 +152,6 @@
 				524623642581B4C000870464 /* Info.plist */,
 			);
 			path = BreakingBadCharacterExplorer;
-			sourceTree = "<group>";
-		};
-		524623852581BDCA00870464 /* BreakingBadCharacterExplorerTests */ = {
-			isa = PBXGroup;
-			children = (
-				524623862581BDCA00870464 /* BreakingBadCharacterExplorerTests.swift */,
-				524623882581BDCA00870464 /* Info.plist */,
-			);
-			path = BreakingBadCharacterExplorerTests;
 			sourceTree = "<group>";
 		};
 		9BA5448E994E9C94EEC33260 /* Pods */ = {
@@ -360,7 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524623872581BDCA00870464 /* BreakingBadCharacterExplorerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
